@@ -38,7 +38,7 @@ async function startMenu(menu) {
         startOver = false
     }
 
-    switch (mode) {
+    switch ("web") {
         case "web":
             startExpressServer()
             break
