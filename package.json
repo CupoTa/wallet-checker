@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
+    "build": "node run build",
     "web": "node index.js",
     "start": "node index.js web",
     "zksync": "node checkers/zksync.js",
